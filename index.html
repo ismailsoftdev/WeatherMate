@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    
+    <main>
+        <form>
+            <label for="location">Enter your location:</label>
+            <input type="text" id="location" name="location" autocomplete="country-name">
+            <button type="submit">Get Weather</button>
+        </form>
+        <span class="loader"></span>
+        <div id="weather-data"></div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
