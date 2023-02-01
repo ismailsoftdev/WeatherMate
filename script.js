@@ -7,7 +7,7 @@ loadingIndicator.style.display = "none";
 
 // Function to fetch weather data from API
 async function getWeather(location) {
-    const apiKey = "b4d23d531debc4209675fd1fc6b341eb";
+    const apiKey = "YOUR_API_KEY";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`;
 
     const response = await fetch(apiUrl);
